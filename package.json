@@ -1,22 +1,28 @@
 {
-  "name": "getting-started",
+  "name": "sadbot2.0",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts"
   },
-  "author": "Shay DeWael",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuavaScript/SadBot2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuavaScript/SadBot2.0/issues"
+  },
+  "homepage": "https://github.com/GuavaScript/SadBot2.0#readme",
   "dependencies": {
-    "discord-interactions": "^3.2.0",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "node-fetch": "^3.2.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1"
   }
 }
